@@ -3,7 +3,8 @@
 
 int get_Input() {
     int num;
-    printf("Input Num : (1~9): ");
+    printf("[0 ~ 99]\n");
+    printf("Input Num : ");
     scanf("%d", &num);
     return num;
 }

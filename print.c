@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "print.h"  // 함수 선언 포함
+#include "include/print.h"  // 함수 선언 포함
 
 // 구구단 출력 함수
 void print_Result(int num) {

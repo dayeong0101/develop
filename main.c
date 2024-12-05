@@ -10,7 +10,7 @@ int main()
 {
     int num = get_Input();  
 
-    if (num < 1 || num > 9) {
+    if (num < 1 || num > 100) {
         printf("Input Error\n");
         return PASS;  
     }
